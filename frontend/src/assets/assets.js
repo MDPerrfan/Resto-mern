@@ -8,6 +8,9 @@ import linkedin from './linkedin.png'
 import addicon from "./addicon.png"
 import addicon_green from "./addicon_green.png"
 import remove_icon from "./remove_icon.png"
+import play_store from './playstore.png'
+import apple_store from './appstore.png'
+import cross_icon from './cross_icon.png'
 import menu_1 from "./menu_1.png"
 import menu_2 from "./menu_2.jpg"
 import menu_3 from "./menu_3.jpg"
@@ -49,7 +52,10 @@ export const assests = {
     rating_stars,
     fb,
     insta,
-    linkedin
+    linkedin,
+    apple_store,
+    play_store,
+    cross_icon
 }
 export const menu_list = [{
     menu_name: "Salad",
