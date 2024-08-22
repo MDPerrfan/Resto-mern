@@ -10,7 +10,7 @@ const Menu = ({category,setCategory}) => {
             {menu_list.map((item,index)=>{
                 return(
                     <div onClick={()=>setCategory(prev=>prev===item.menu_name?"All":item.menu_name)} key={index} className="menu-list-item">
-                        <img className={category===item.menu_name?"active":""} src={item.menu_image} alt="menu_image" style={{maxWidth:"130px"}} />
+                        <img className={category===item.menu_name?"active":""} src={item.menu_image} alt="menu_image" />
                         <p>{item.menu_name}</p>
                     </div>
                 )

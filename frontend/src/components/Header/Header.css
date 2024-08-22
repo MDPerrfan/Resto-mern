@@ -1,7 +1,7 @@
 .header {
     height: 34vw;
     margin: 30px auto;
-    background: url('../../public/header-img.png') no-repeat;
+    background: url('../../public/header-img2.jpg') no-repeat;
     background-size: contain;
     position: relative;
 }
@@ -28,6 +28,7 @@
 .header-contents p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1vw;
+    color: rgb(75, 74, 74);
 }
 
 .header-contents button {
