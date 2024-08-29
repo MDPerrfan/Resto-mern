@@ -41,10 +41,7 @@ import food_17 from "./food_17.jpg"
 import food_18 from "./food_18.jpg"
 import food_19 from "./food_19.jpg"
 import food_20 from "./food_20.jpg"
-
-
-
-import headerimg from "../../public/header-img.png"
+import headerimg from "./header-img2.jpg"
 export const assests = {
     navlogo,
     search,
