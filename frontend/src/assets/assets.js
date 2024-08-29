@@ -11,6 +11,10 @@ import remove_icon from "./remove_icon.png"
 import play_store from './playstore.png'
 import apple_store from './appstore.png'
 import cross_icon from './cross_icon.png'
+import logout from './logout.png'
+import bag_icon from './bag.png'
+import profile from './person.png'
+import parcel from './parcel.png'
 import menu_1 from "./menu_1.png"
 import menu_2 from "./menu_2.jpg"
 import menu_3 from "./menu_3.jpg"
@@ -55,7 +59,11 @@ export const assests = {
     linkedin,
     apple_store,
     play_store,
-    cross_icon
+    cross_icon,
+    logout,
+    bag_icon,
+    profile,
+    parcel
 }
 export const menu_list = [{
     menu_name: "Salad",

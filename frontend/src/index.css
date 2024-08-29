@@ -18,6 +18,11 @@ a {
 .app {
     width: 80%;
     margin: auto;
+    min-height: 100vh;
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 @keyframes fadeIn {

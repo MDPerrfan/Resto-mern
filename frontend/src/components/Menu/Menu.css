@@ -57,8 +57,17 @@
 }
 
 @media (max-width:1050px) {
+    .menu h1 {
+        font-size: 25px;
+    }
     .menu-text {
         max-width: 100%;
         font-size: 15px;
+    }
+}
+
+@media (max-width:750px) {
+    .menu h1 {
+        font-size: 18px;
     }
 }
