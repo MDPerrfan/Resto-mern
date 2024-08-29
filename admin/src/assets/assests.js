@@ -5,6 +5,7 @@ import order from './order.png';
 import parcel from './parcel.png';
 import list from './list2.png';
 import upload from './upload.png'
+export const url = "https://resto-mern-backend.onrender.com";
 export const assets = {
     logo,
     add,
