@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export const connectDB = async () => {
     try {
-        await mongoose.connect(process.env.MONGO_URI, {
+        await mongoose.connect('mongodb+srv://resto:MDPpc776@cluster0.ohw5n.mongodb.net/resto', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useCreateIndex: true,
@@ -10,6 +10,7 @@ export const connectDB = async () => {
         console.log("DB connected");
     } catch (error) {
         console.error("DB connection error:", error.message);
-        process.exit(1); // Exit process with failure
+        process.exit(1); // Exit the process with a failure code
     }
 };
+
