@@ -4,7 +4,7 @@ export const StoreContext = createContext(null)
 
 export const StoreContextProvider = (props) => {
     const [cartItems, setCartItems] = useState({})
-    const url = "https://resto-mern-backend.onrender.com";
+    const url = "https://restomern-backend.vercel.app/";
     const [token, setToken] = useState("");
     const [food_list, setFoodlist] = useState([])
     const addToCart = async (itemId) => {
