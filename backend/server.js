@@ -7,11 +7,16 @@ import 'dotenv/config'
 import cartRouter from "./routes/cartRoute.js";
 import orderRouter from "./routes/orderRoute.js";
 
+import path from 'path';
+import { fileURLToPath } from 'url';
 
+const __filename = fileURLToPath(
+    import.meta.url);
+const __dirname = path.dirname(__filename);
 //app config
 const app = express();
 const port = process.env.PORT || 4000;
-
+app.use('/files', express.static(path.join(__dirname, 'upload')));
 //middleware
 app.use(express.json());
 app.use(cors());
