@@ -110,7 +110,6 @@ Here’s a screenshot of the app:
 
 ![RestoMern Screenshot](https://raw.githubusercontent.com/MDPerrfan/React-Portfolio/refs/heads/main/src/Assets/Projects/Screenshot_4.jpg)
 
-*(Replace with actual image or URL to a screenshot of your app)*
 
 ## Contributing
 
